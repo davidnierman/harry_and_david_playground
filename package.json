@@ -1,0 +1,12 @@
+{
+  "name": "testingapi",
+  "version": "1.0.0",
+  "description": "testing pinging an api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "david & harry",
+  "license": "ISC",
+  "dependencies": {}
+}
