@@ -1,3 +1,5 @@
+// https://www.twilio.com/blog/http-requests-in-node-js-html
+
 const https = require("https");
 
 https
@@ -11,7 +13,7 @@ https
 
     // The whole response has been received. Print out the result.
     resp.on("end", () => {
-      console.log(JSON.parse(data).explanation);
+      console.log(JSON.parse(data).date);
     });
   })
   .on("error", (err) => {
